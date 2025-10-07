@@ -35,7 +35,7 @@
         while (true)
         {
             Console.WriteLine(prompt);
-            string? op = Console.ReadLine()?.Trim().ToLower();
+            string? op = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(op))
             {
                 Console.WriteLine("Вы не ввели операцию.");
